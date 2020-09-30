@@ -36,16 +36,7 @@ def animate(i):
         ax.scatter(test[i][0], test[i][1], 10, color='red')
     else:
         ax.scatter(test[i][0], test[i][1], 10, color='blue')
-    # if(i == 0):
-    #     text = plt.text(0.3, 1.05, "Some text")
-    # else:
     t.set_text(str(pi_list[i]))
-
-    plt.draw()
-    # ax.set_visible(False)
-    # fig.text.remove()
-    # graph.set_data(test[i][0], test[i][1])
-    # return graph
 
 
 x1 = r*np.cos(theta)
